@@ -1,0 +1,8 @@
+docker tag api-gateway:latest  557422924901.dkr.ecr.us-east-1.amazonaws.com/api-gateway:latest
+docker tag processor:latest    557422924901.dkr.ecr.us-east-1.amazonaws.com/processor:latest
+docker tag nginx:latest        557422924901.dkr.ecr.us-east-1.amazonaws.com/nginx:latest
+
+
+docker push 557422924901.dkr.ecr.us-east-1.amazonaws.com/api-gateway:latest
+docker push 557422924901.dkr.ecr.us-east-1.amazonaws.com/processor:latest
+docker push 557422924901.dkr.ecr.us-east-1.amazonaws.com/nginx:latest
